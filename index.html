@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureBank Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h1>SecureBank</h1>
+      <p class="tagline">Your trusted financial partner</p>
+      <form class="login-form">
+        <!-- Username Field -->
+        <label for="username" class="form-label">Username</label>
+        <input 
+          type="text" 
+          id="username" 
+          name="username" 
+          class="form-input" 
+          placeholder="Enter your username" 
+          required>
+        
+        <!-- Password Field -->
+        <label for="password" class="form-label">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          class="form-input" 
+          placeholder="Enter your password" 
+          required>
+        <p id="password-error" class="error-message"></p>
+      
+        <!-- Login Button -->
+        <button type="submit" class="login-button">Login</button>
+      </form>
+      
+
+      <!-- Links -->
+      <div class="links">
+        <a href="#" class="link">Forgot Password?</a>
+        <a href="#" class="link">Create Account</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
